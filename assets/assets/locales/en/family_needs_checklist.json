@@ -1,0 +1,121 @@
+{
+    "title":"Family needs checklist",
+    "info":"TODO",
+    "demographic_questions": {
+        "title":"Demographic details",
+        "age": {
+            "title":"Your age"
+        },
+        "education": {
+            "title":"Education",
+            "choices":[
+                "No formal education",
+                "Vocational degree",
+                "College degree",
+                "University degree"
+            ]
+        },
+        "family": {
+            "title":"Family status",
+            "choices":[
+                "Married",
+                "Single",
+                "Divorced",
+                "Reconstituted family",
+                "Widow"
+            ]
+        },
+        "children": {
+            "title": "Number of children"
+        },
+        "children_age": {
+            "title": "Age of all the children in years"
+        },
+        "twins":  {
+            "title":"Age of all the children in years",
+            "choices":[
+                "Yes",
+                "No"
+            ]
+        },
+        "premature":  {
+            "title": "Age of all the children in years",
+            "choices":[
+                "Yes",
+                "No"
+            ]
+        },
+        "gender":{
+            "title":"Age of all the children in years",
+            "choices":[
+                "Girl",
+                "Boy"
+            ]
+        }
+    },
+
+    "binary_questions": {
+        "title":"Think about the situation with your child",
+        "number":"No.",
+        "statement":"Statement",
+        "choices":[
+            {
+                "id": 0,
+                "title": "Yes",
+                 "short":"Y"
+            },
+            {
+                "id": 1,
+                "title": "No",
+                 "short":"N"
+            }
+        ],
+        "child_situation": {
+            "title":"Think about the situation with your child",
+        "questions": [
+            {
+                "title":"My child had complications associated with pregnancy or birth",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"My child has a diagnosed developmental, physical, emotional or social disability",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"I know what shaken baby syndrome means",
+                "info":"TODO",
+                "positive_answer": 0
+            },
+            {
+                "title":"My child is weeping a lot",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"My child is often disobedient, misbehaving, difficult or irritable",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"My child has challenges at school",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"My child is often sick or unwell",
+                "info":"TODO",
+                "positive_answer": 1
+            },
+            {
+                "title":"I have to calm my child by giving drugs, sedatives or other substances",
+                "info":"TODO",
+                "positive_answer": 1
+            }
+
+        ]
+
+    }
+
+}}
