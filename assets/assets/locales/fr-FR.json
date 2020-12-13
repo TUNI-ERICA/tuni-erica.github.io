@@ -1,0 +1,431 @@
+{
+  "title":"Family needs checklist",
+  "info":"TODO",
+  "home_page": {
+      "title":"Family needs checklist",
+      "info":"We are improving child and family services needed in both positive and challenging life circumstances, and we want your family to be active participants in this process. The attached family needs checklist is meant to convey happiness in the family, as well as those worries that you as a parent are carrying inside. Everyday problems are part of life, but there are evidence-based issues that can significantly worsen the welfare of children and all family members, once they accumulate. It is important that your worries will not turn into suffering.\n\n When the need appears, it is important that the high-quality supportive services are provided swiftly through open, supportive, dependable, and caring interaction. The support will be organised through seamless collaboration with family-centred professionals in respect of your unique life situation. This checklist is confidential and is meant to serve as a starting point for a dialogue on your next appointment with advised professional.\n\n Please fill out the online checklist and proceed as advised by the application. Filling the app is anonymous and therefore only you can see the result of the checklist. Save the checklist result for yourself to be able to discuss the content of the statements with the professional.",
+      "locales": {
+          "en":{"long":"English","short": "en"},
+          "fi":{"long":"Suomi","short": "fi"},
+          "swe":{"long":"Svenska","short": "swe"},
+          "fra":{"long":"Français","short": "fra"}
+  },
+      "begin": "Débuter"
+  },
+  "demographic_questions": {
+      "title":"Demographic details",
+      "next":"Next",
+      "input_error":"Please enter ",
+      "0": {
+          "info":"As you are a young caregiver, you might do just all right with your child. Previous life experiences of caring and nurturing can follow you from your secure and healthy childhood family life. However, for many young parents, their own emotional, social and cognitive development is still in progress and it can be hard to be a mature, calm and well coping parent. Coping skills are defined as empowerment to control one’s mood and feelings, thoughts, actions, desires, social relationships and life circumstances. It is one’s power to solve everyday challenges or ask for help in case of lacking resources. For young parents it is very important to get support for their own growth as well as their child’s secure and healthy growth. Please ask help from your family members or professionals working in public health, social work, parish or voluntary services like MLL (link), ETKL (link), if you feel you might benefit from it. You may find it useful to get more information about the development in adolescence MLL (link https://www.mll.fi/vanhemmille/lapsen-kasvu-ja-kehitys/) to be able to understand your child’s or your own growth milestones.",
+          "title":"Your age"
+      },
+      "1": {
+          "info":"We hope that through your education, you have got a possibility to work in the field you like. Your education path might also still be in the beginning or in progress. Education is known to be one of the most important things, that ensures stable, secure and satisfying work and family life. While having a child, it can be hard to keep educating yourself. Please don’t hesitate to ask help from your family, local voluntary personnel or contact local education and working life centre professionals for planning support.",
+          "title":"Education",
+          "choices":{
+              "0":"No formal education",
+              "1":"Vocational degree",
+              "2":"College degree",
+              "3":"University degree"
+          }
+      },
+      "2": {
+          "info": "TODO",
+          "info_divorced":"As a divorced caregiver or a caregiver in a reconstituted family you might find it reliving to outdistance harmful social relationship with your ex-partner. Divorce is always very upsetting to all family members, specially for the children since they love their parents unconditionally. Therefore, it is critical, that the children can maintain healthy relationships with both parents. It can be very harmful for children to hear divorced parent’s arguments or bullying each other or keeping children from seeing them. Therefore, adult arguments should be avoided from the ears and eyes of children. Life after divorce or in reconstituted family is a matter of keeping up safe, open and healthy relationships for every family member. Usually it is empowering to get support in case of divorce. There are many websites targeted for parents and children to help through this enormously stressing life event.",
+          "info_single":"As a single caregiver, you may just do all right with your children. However, it is known that single caregivers have many burdens and hardships of parenting, that must be borne without the help of a partner or other close family members. Many times, there is excessive demands placed on the single adult to manage the household, like child rearing, financial support, emotional availability to the children and upkeeping the home.  These duties may become overwhelming and single parent becomes physically and mentally  resourceless, leaving for example less time spent with the children. Please be encouraged to, on a very low threshold, seek support from your close family members, local family professionals to find local settings where parents and children can gather, interact, support and learn from each other.",
+          "title":"Family status",
+          "choices":{
+              "0":"Married",
+              "1":"Single",
+              "2":"Divorced",
+              "3":"Reconstituted family",
+              "4":"Widow"
+          }
+      },
+      "3": {
+          "info":"As you are a caregiver for many children in your household, you can feel the essence and all colours of life; giggling, laughing, hustle, crying, and a lot of responsibility to meet every children’s daily safety and health needs. The number of children in the home can affect the emotional, social and physical resources available for individual children. If you sometimes feel “hands full” and exhausted, and feel that you simply cannot manage anymore and don’t have enough time for each of your children , please have a creative conversation with your spouse about how to manage better together, or ask for support from close relatives or family professionals. Babysitting services (link) are also there to help you.",
+          "title":"Number of children"
+      },
+      "4": {
+          "info":"You are nurturing and rearing a very young child or you may have many very young children under 3 years old. You may be aware that we all have by nature different temperaments from the birth. Babies may manifest their temperament as irritable but cannot control it. Therefore, they are the most fragile and defenceless toward any discipline attempts caused by a caregiver. They can be harmed or even die from maltreatment. We, together with the caregivers want to prevent children from any maltreatment. Therefore, the knowledge about the fragility of the small children (linkki) and their development (linkki) is very important as well as the support services that can help families with small children (linkki). Please ask advice or support from the local professional to you, for example public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional if you are in doubt of any child or family life matters, big or small. We professionals hold an obligation of confidentiality  and aim to work swiftly and effectively for you, your child’s and family wellbeing.",
+          "title":"Age of all the children in years"
+      },
+      "5":  {
+          "info": "TODO",
+          "title":"Twins in the family",
+          "choices":{
+              "0":"Yes",
+              "1":"No"
+          }
+      },
+      "6":  {
+          "info": "TODO",
+          "title":"Premature baby",
+          "choices":{
+              "0":"Yes",
+              "1":"No"
+          }
+      },
+      "7":{
+          "info": "TODO",
+          "title":"Gender of children",
+          "choices":{
+              "0":"Girl",
+              "1":"Boy"
+          }
+      }
+  },
+
+  "binary_questions": {
+      "title":"Think about the situation with your child",
+      "number":"No.",
+      "statement":"Statement",
+      "choices":{
+          "no":{
+              "id": 0,
+              "title": "No",
+               "short":"N"
+          },
+          "yes":{
+              "id": 1,
+              "title": "Yes",
+               "short":"Y"
+          }
+      },
+      "child_situation": {
+          "title":"Think about the situation with your child",
+          "questions": {
+              "0":{
+                  "title":"My child had complications associated with pregnancy or birth",
+                  "info":"Did you know that preterm birth or low birth weight are known risk factors for child maltreatment. It can be due to early separation from caregiver where a caregiver-child bonding may become impaired or challenged. Bonding and early attachment is critical to a baby in order to be able feel secure and attached to you. It is also critical that they feel they can rely on you to give food, shelter and love unconditionally. If there are no other challenges in your family and you feel you are supported well by your family or close relatives or local public health care, there is no need for you to become worried. If the situation with your child becomes challenging and you are not able to overcome it, please contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+              },
+              "1":{
+                  "title":"My child has a diagnosed developmental, physical, emotional or social disability",
+                  "info":"You are a caregiver to a child who is special and has special needs. This means the child needs you even more and more often, sometimes all the time. Caregiver’s with special children needs constant support and special sensitivity from professionals on all the levels in the community. The ultimate goal in the community work is that you are heard one-to-one and supported likewise. If the situation with your child becomes challenging and you are not able to overcome it, please contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs. It might be helpful to find support services from many providers.",
+                  "riskFactor": "Y"
+              },
+              "2":{
+                  "title":"I know what shaken baby syndrome means",
+                  "info":"Shaken baby syndrome or abusive head trauma means violent shaking or impact of an infant. It is both physical and emotional maltreatment of a child and is always a serious crime. Here you can find more precise information (link). If the situation with your child becomes challenging and you are not able to overcome it, leave the child in a secure place i.e. in a cot and go in the other room to calm down. Sometimes a moment of relaxing breathing helps (link). Sometimes it also helps to wear earplugs while holding a crying or irritable baby. It is the most important to remain calm and nurturing with the baby. In urgent situations, you may call (phone number). Please contact your regions closest health care professional, public health care nurse in the family centre, social worker to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "N"
+              },
+              "3":{
+                  "title":"My child is weeping a lot",
+                  "info":"A weeping is a child’s way to express hunger, uncomforted, pain, distress or their own will, temper or tantrum depending on the age and the development stage of the child. For a caregiver it can be frustrating if they cannot cope with the challenging situation with the child. We usually cannot prevent the weeping but we can choose how we react in the situation. The best way is to find out why the child is crying and have a loving and calm conversation with the child, cuddle the child to relieve distress. There are many ways to help you through the tough situation, for example (links). If the situation with your child becomes challenging and you are not able to overcome it, please get support from your spouse, close relatives or contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+              },
+              "4":{
+                  "title":"My child is often disobedient, misbehaving, difficult or irritable",
+                  "info":"Disobedient, misbehaving, difficult or irritable child can be challenging, indeed. Every child have their own difficult moments and developmental stages when they need a caregiver to help them to solve a challenge. We, adults are here to relieve, give boundaries, ease their emotional pain in a loving and nurturing manner. This is not easy, especially if the child is continuously challenging. There are many things that may come on our way and ruin our efforts: Tiredness, problems to cope with a challenging situation, inability to understand the child’s feelings or developmental stage, poor relationship with the child, busy life with little or no time for the child, inability to hold a consistent safe and healthy child rearing methods, mental health problems, domestic violence or substance abuse in the family, the child’s behaviour may remind the caregiver of their own childhood, the child rejects the caregiver, the child offends the caregiver or the child does not meet the caregiver’s expectations… If the situation with your child becomes challenging and you are not able to overcome it, please try to resolve problems you’re your spouse or close relative, or contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+              },
+              "5":{
+                  "title":"My child has challenges at school",
+                  "info":"If your child has challenges at school, there should be a quite swift and comprehensive response to it. Therefore, it is vital to get support immediately. For example, the child may have learning problems due to medical condition, problems in concentration, tiredness, bullying at school, problems at home environment, lack of emotional support, neglected every day guidance and nurture, poor relations at home or at school, lack of friends, witnessing domestic violence or physical, emotional, sexual violence at home…list is long. If the situation with your child becomes challenging and you are not able to overcome it at home, please try to resolve problems with your spouse or close relative, or contact your child’s school personnel to resolve the challenge. You can also contact public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+              },
+              "6":{
+                  "title":"My child is often sick or unwell",
+                  "info":"If your child is often sick, there is usually a reason for it. Sometimes medical conditions can be mysterious at beginning, but in the long run reasons are found and your child get’s the best possible treatment for that. It is important that both caregivers take a part to child rearing practices and care, spends time with the child and have an opinion of the child’s health. Disease-centredness can be very harmful to the child’s safe and healthy growth. Even the child may have a diagnosed medical, social, cognitive or emotional condition, the child needs to be seen through her health, resources and uniqueness. If the situation with your child becomes challenging and you are not able to overcome it, please try to resolve problems with your spouse or close relative, or contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+              },
+              "7":{
+                  "title":"I have to calm my child by giving drugs, sedatives or other substances",
+                  "info":"Your child may have regular medications ordered by a doctor. It is important that the child gets promptly all medication that are described for the child. Giving other medications is strongly prohibited unless available for children without the prescription and guided by the pharmacist. Also falsifying the child’s symptoms to get a prescription from the doctor is considered child maltreatment and therefore violating the child’s safe and healthy growth.",
+                  "riskFactor": "Y"
+              }
+          }
+      },
+      "your_situation": {
+          "title":"Think about the situation with yourself",
+          "questions": {
+              "8":{
+                  "title":"Although I became pregnant, I feel I did not want to",
+                  "info":"It seems you did not want to become pregnant, but decided to keep the baby or deliver the baby for custody. Pregnancy sometimes happens without planning due to failed contraception or even as a result of a rape. Rape is sexual violence and an illegal action, a crime. Sometimes the life is full of challenges even without the baby. You might be a young mother and your education might still be unfinished. You might have substance abuse problems or mental health problems. You might be unemployed and don’t know how to provide safe and healthy growth for your baby or you just don’t feel like to be a caregiver. The new born baby needs full commitment and unconditional love of a caregiver. We all are entitled to have support for the baby’s safe and healthy growth. There are support services for enhancing child-caregiver relationship and attachment. If you have challenges which you are not able to overcome, please contact your regions closest health care professional, occupational nurse, public health care nurse in the family centre, social worker or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+
+              },
+              "9":{
+                  "title":"I have a criminal record",
+                  "info":"A safe and healthy growth is a human right every family member. A criminal record itself does not mean that you are not a good caregiver for your child. However, a criminal record that is concerned for example with substance abuse or violent acts, if still present, increase potential for child maltreatment in the family. It can manifest neglecting the child’s social, physical and emotional every day needs, making a child to witness family violence or experiencing physical, emotional or sexual violence at home, for example. If you have challenges which you are not able to overcome, please try to resolve problems with your spouse or close relative, or contact your regions closest health care professional, occupational nurse, public health care nurse in the family centre, social worker or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+                  "riskFactor": "Y"
+
+              },
+              "10":{
+                  "title":"I feel lonely and haven’t had enough support from the community, relatives, friends or spouse",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "11":{
+                  "title":"I have missed my child’s health appointments",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "12":{
+                  "title":"I use child and family services regularly as recommended",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "13":{
+                  "title":"I have to use a lot of health services with my child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "14":{
+                  "title":"I know what child maltreatment means",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "15": {
+                  "title":"I know what child sexual violence means",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "16":{
+                  "title":"I have been maltreated as a child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "17":{
+                  "title":"I have experienced traumatic events as a child and cannot get over them",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "18":{
+                  "title":"I know what is safe limit for daily alcohol usage",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "19":{
+                  "title":"I am suffering from serious illness",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "20":{
+                  "title":"I am suffering from mental health problems for example depression or feeling of worthless",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "21":{
+                  "title":"I am living stressful times",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "22":{
+                  "title":"I often have to cancel my health or social appointments",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "23":{
+                  "title":"I know what child corporal punishment means",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "24":{
+                  "title":"I spend a lot of time in internet or phone while taking care of my child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "25":{
+                  "title":"I sometimes have inaccurate expectations about what the child’s behavior should be like",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "26":{
+                  "title":"Parenting stresses me out",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "27":{
+                  "title":"I have called my child names like stupid, ugly, fat or worthless",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "28":{
+                  "title":"I have destroyed/harmed my child’s favorite object for example toy or pet",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "29":{
+                  "title":"I cannot always control my child’s disobedient behaviour",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "30":{
+                  "title":"I think that my child needs me all the time",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "31":{
+                  "title":"I was separated from my baby after the birth",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "32":{
+                  "title":"I have too little time for together with my child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "33":{
+                  "title":"I think that my child feels safe to talk openly about sensitive issues at home",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "34":{
+                  "title":"I am able to share my love equally to my children",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "35":{
+                  "title":"I take care of my child’s activities of daily living for example dental hygiene, general hygiene, healthy and nutritious nourishment or sleeping times",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "36":{
+                  "title":"I have threatened my child with abandonment or violence for example spanking or pulling hair",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "37":{
+                  "title":"I tend to bring out my child’s weaknesses in public or in front of my child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "38":{
+                  "title":"I tend to punish my child verbally or physically",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "39":{
+                  "title":"I tend to belittle my child",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "40":{
+                  "title":"I punish my child for bad behaviour or bad actions",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "41":{
+                  "title":"I had to discipline my child by causing the child feel pain",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "42":{
+                  "title":"We use traditional punishing methods at home, for example threatening, bribing, blackmailing or “naughty bench”",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "43":{
+                  "title":"I think that there is a “normal” level of violence in parenting that is acceptable in our society",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              }
+          }
+      },
+      "family_situation": {
+          "title":"Think about your family situation",
+          "info_any_risks": "The situation with your family seem to be challenging. If you have challenges which you are not able to overcome, please contact your regions closest health care professional, occupational nurse, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs.",
+          "questions": {
+              "44":{
+                  "title":"One or more of my family members are unemployed",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "45":{
+                  "title":"Our home is too cramped",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "46":{
+                  "title":"We have to use a lot of welfare systems services for example benefits, public assistance or social work",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "47":{
+                  "title":"We have a history of child protective interventions",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "48":{
+                  "title":"I think that my home is safe and healthy for a child to develop",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "49":{
+                  "title":"I know what family violence means",
+                  "info":"TODO",
+                  "riskFactor": "N"
+              },
+              "50":{
+                  "title":"My family have problems getting along",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "51":{
+                  "title":"My child has been subjected to family violence",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "52":{
+                  "title":"My partner sometimes says or do things that make me sad, depressed, stressed out or fearful",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "53":{
+                  "title":"My partner sometimes keeps me from doing my favorite things like seeing friends or attending learning courses",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              },
+              "54":{
+                  "title":"My partner has kept me from seeking medical or mental health care",
+                  "info":"TODO",
+                  "riskFactor": "Y"
+
+              }
+          }
+      }
+  },
+  "results_section": {
+    "title":"Results",
+    "more_info":"More info",
+    "info_no_risks":"Congratulations! Your family life seems to be safe and healthy for your child(ren), other family members and you at present. Please do not hesitate to fill the app again as soon as your family life situation changes or worsens. We professionals hold an obligation of confidentiality and aim to work swiftly and effectively for you and your family wellbeing.  Please inform us about this result on your next appointment to any child and family services appointments. That way the support can be arranged swiftly to you or your family before worries harms safe and healthy life of your child(ren), you and other family members. You may also find useful material from national websites like (links to the national voluntary agencies i.e. väestöliitto, Ensi- ja turvakotien liitto, Mannerheimin lastensuojeluliitto, kansalaisyhteiskunta-sivusto)”. In case of an emergency support needed, call",
+    "info_shaken_baby":"If there are all risk factors concerning the combination measuring the shaken baby syndrome in section, very small children in the family and domestic violence in the family or 1 or statement no. 3 in the section 2, advise will be displayed as follows: “Twin babies, premature babies, very young babies and baby boys are known to be in heightened risk of severe physical maltreatment called Shaken baby syndrome or abusive head trauma. It means violent shaking or impact of an infant. The baby may be perceived by caregiver as irritable, difficult to handle or persistently crying, having colic problem or be hyperactive. The risk heightens even more if there is substance abuse or domestic violence in the family. Violence against the baby usually happens because of caregiver’s unrealistic expectations of baby’s ability to control their own behaviour or hopelessness and inability to cope with challenging child-caregiver relationship. The fact is that the baby’s ill condition after shaking or impacting is often severe and irreversible causing lifelong injuries and disability. Therefore, it is critical to acknowledge this and seek help preventively. If the situation with your child seem to be challenging, and you are not able to overcome it, please seek support, have a discussion with your spouse, close relatives or contact your regions closest health care professional, public health care nurse in the family centre, social worker, day care teacher or voluntary agency professional to be able to assess your and your family’s possible support needs. You can read more about the shaken baby syndrome here."
+  }
+}
