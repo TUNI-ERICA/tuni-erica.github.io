@@ -1,11 +1,11 @@
 {
-    "name": "erica_fnc",
-    "short_name": "erica_fnc",
+    "name": "Family Needs Checklist",
+    "short_name": "FNC",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Family Needs Checklist",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -15,24 +15,24 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Family Needs Checklist">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="erica_fnc">
+  <meta name="apple-mobile-web-app-title" content="Family Needs Checklist">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.ico"/>
 
-  <title>erica_fnc</title>
+  <title>Family Need Checklist</title>
   <link rel="manifest" href="manifest.json">
-  <style>
+  <!-- <style>
     flt-glass-pane {
       image-rendering: pixelated;
     }
-  </style>
+  </style> -->
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -41,10 +41,18 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1018819723');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1026389737');
       });
     }
   </script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+  <script type="text/javascript">
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
+  </script>
+  
   <script src="main.dart.js" type="application/javascript"></script>
+
+
 </body>
 </html>
